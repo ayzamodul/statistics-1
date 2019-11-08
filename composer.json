@@ -1,0 +1,31 @@
+{
+    "name": "berkay/statistics",
+    "description": "Berkay Statistics",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.8.28"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "berkay\\statistics\\" : "src"
+        }
+
+    },
+
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "brkyunlu",
+            "email": "brky.unluu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "berkay\\statistics\\providers\\StatisticsServiceProvider"
+            ]
+        }
+    }
+}
