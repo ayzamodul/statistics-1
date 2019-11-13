@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Cache;
 use Spatie\Analytics\Period;
 use Analytics;
 
-class KullaniciController extends Controller
+class StatisticController extends Controller
 {
     public function index()
     {
