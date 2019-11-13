@@ -20,6 +20,6 @@ class StatisticController extends Controller
             $analytics['browser'] = Analytics::fetchTopBrowsers(Period::days(7));
             return $analytics;
         });
-        return view('Statistics::deneme',compact('analytics'));
+        return view('Statistics::view',compact('analytics'));
     }
 }
